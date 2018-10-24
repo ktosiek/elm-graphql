@@ -23,8 +23,7 @@ type RootMutation
     = RootMutation
 
 
-{-| Type for top-level mutations which can be sent using functions
-from `Graphql.Http`.
+{-| Type for top-level subscriptions which can be used with functions from `Graphql.Document`.
 -}
 type RootSubscription
     = RootSubscription
